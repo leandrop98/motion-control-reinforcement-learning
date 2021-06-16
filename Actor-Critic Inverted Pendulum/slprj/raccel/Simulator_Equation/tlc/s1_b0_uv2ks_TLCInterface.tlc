@@ -1,0 +1,122 @@
+%implements s1_b0_uv2ks_TLCInterface "C"
+
+%function getInputAddr_1_1_0_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtB.kzz01cc0xb"
+%endfunction
+
+%function getInput_1_1_0_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtB.kzz01cc0xb"
+%endfunction
+
+%function getInputAddr_1_1_0_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtB.itdxkh2qkz"
+%endfunction
+
+%function getInput_1_1_0_0_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtB.itdxkh2qkz"
+%endfunction
+
+%function getDWorkAddr_1_1_0_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtDW.mh4ld01rys" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_1_0_0_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtDW.mh4ld01rys" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_1_0_2_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtB.kzz01cc0xb"
+%endfunction
+
+%function getInput_1_1_0_2_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtB.kzz01cc0xb"
+%endfunction
+
+%function getInputAddr_1_1_0_2_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtB.itdxkh2qkz"
+%endfunction
+
+%function getInput_1_1_0_2_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtB.itdxkh2qkz"
+%endfunction
+
+%function getDWorkAddr_1_1_0_2_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtDW.mh4ld01rys" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_1_0_2_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtDW.mh4ld01rys" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_1_1_0_2_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtB.kzz01cc0xb"
+%endfunction
+
+%function getInput_1_1_0_2_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtB.kzz01cc0xb"
+%endfunction
+
+%function getInputAddr_1_1_0_2_1_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtB.itdxkh2qkz"
+%endfunction
+
+%function getInput_1_1_0_2_1_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtB.itdxkh2qkz"
+%endfunction
+
+%function getDWorkAddr_1_1_0_2_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtDW.mh4ld01rys" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_1_1_0_2_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtDW.mh4ld01rys" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_1_2_0_3_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtDW.gls10ntaaz"
+%endfunction
+
+%function getDWork_1_2_0_3_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtDW.gls10ntaaz"
+%endfunction
+
+%function getParamAddr_1_2_0_3_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtP.RealTimeSynchronization_MaxMissedTicks"
+%endfunction
+
+%function getParam_1_2_0_3_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtP.RealTimeSynchronization_MaxMissedTicks"
+%endfunction
+
+%function getParamAddr_1_2_0_3_0_1_1(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtP.RealTimeSynchronization_YieldWhenWaiting"
+%endfunction
+
+%function getParam_1_2_0_3_0_1_1(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtP.RealTimeSynchronization_YieldWhenWaiting"
+%endfunction
+
