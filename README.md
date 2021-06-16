@@ -1,5 +1,10 @@
 # Motion Control using Reinforcement Learning
-![Q-Learning Result](https://github.com/leandrop98/motion-control-reinforcement-learning/blob/master/Q-Learning%20Inverted%20Pendulum/Results/500_098_01_50.png)
+![Q-Learning Result](https://github.com/leandrop98/motion-control-reinforcement-learning/blob/master/Q-Learning.gif?raw=true)
 
-Reinforcemente learning applied to motion control (inverted pendulum)
+In this project was implemented three different reinforcement learning methods:
+- Q-Learning
+- SARSA
+- Actor-Critic
+
+The environment used was a simulated inverted pendulum. All the methods were implemented in MATLAB.
 
